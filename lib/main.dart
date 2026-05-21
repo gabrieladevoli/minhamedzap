@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_final/CadastroConsultaScreen.dart';
+import 'package:lollo_e_malu_pages/pages/homepage.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,7 +11,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: const CadastroConsultaScreen()
+      debugShowCheckedModeBanner: false,
+      home: HomePage()
     );
   }
 }
