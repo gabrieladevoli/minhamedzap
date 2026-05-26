@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lollo_e_malu_pages/pages/messages.dart';
-import 'package:lollo_e_malu_pages/pages/mylocation.dart';
+import 'package:minha_med_zap/pages/messages.dart';
+import 'package:minha_med_zap/pages/mylocation.dart';
 
 
 class MyDrawer extends StatelessWidget {

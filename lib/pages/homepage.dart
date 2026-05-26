@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:lollo_e_malu_pages/pages/assets.dart';
-import 'package:lollo_e_malu_pages/widgets/drawer.dart';
+import 'package:minha_med_zap/pages/assets.dart';
+import 'package:minha_med_zap/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lollo_e_malu_pages/pages/homepage.dart';
+import 'package:minha_med_zap/pages/homepage.dart';
 
 void main() {
   runApp(const MainApp());
