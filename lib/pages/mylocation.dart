@@ -1,0 +1,49 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+class MyLocation extends StatelessWidget {
+  const MyLocation({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      //drawer: MyDrawer(),
+      appBar: AppBar(
+        title: Text(
+          "Localização",
+          textAlign: TextAlign.center,
+                style: GoogleFonts.montserrat(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
+                  color: const Color.fromARGB(221, 255, 255, 255),
+                  fontStyle: FontStyle.italic,
+                ),
+              ),
+      ),
+      body: Center(
+        child: AlertDialog(
+          content: Container(
+            width: 500,
+            height: 200,
+            color: const Color.fromARGB(255, 241, 238, 238),
+            child: Center(
+              child: Text(
+                "Parabens, você fez o seu 1° login! Sinta-se em casa. \n"
+            "Em breve, aqui você verá sua localização correta pra facilitar o acesso a serviços e a assistências.",
+                textAlign: TextAlign.center,
+                style: GoogleFonts.montserrat(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.black87,
+                  fontStyle: FontStyle.italic,
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
+      //bottomNavigationBar: MyBottomBar(),
+    );
+  }
+}
+
